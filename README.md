@@ -16,12 +16,12 @@ Creates an a organization with several accounts.
 
 | Name | Description |
 |------|-------------|
-| account\_ids |  |
-| account\_names |  |
-| arn |  |
-| id |  |
-| master\_account\_arn |  |
-| master\_account\_email |  |
-| master\_account\_id |  |
+| account\_ids | Organization sub-account ids. |
+| account\_names | Organization sub-account names. |
+| arn | ARN of the organization. |
+| id | Id of the organization. |
+| master\_account\_arn | Main (root) account ARN. |
+| master\_account\_email | Main (root) account email. |
+| master\_account\_id | Main (root) account id. |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
