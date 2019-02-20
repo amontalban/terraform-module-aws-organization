@@ -1,4 +1,4 @@
-# Organizarion
+# Organization
 
 Creates an organization with accounts.
 
