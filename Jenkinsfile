@@ -1,4 +1,4 @@
 fxTerraformWithUsernamePassword(
   testEnvironmentCredentialId: 'itoa-application-awscollectors-awscred',
-  commandTargets:              ['examples/standard-s3']
+  commandTargets:              ['examples/standard-organization']
 )
