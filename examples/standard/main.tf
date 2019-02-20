@@ -8,7 +8,7 @@ module "organization" {
   source = "../../"
 
   organization_create = false
-  account_nb = 1
-  account_names = "tfstest"
-  account_emails = "tftsest@fxinnovation.com"
+  account_nb          = 1
+  account_names       = "tfstest"
+  account_emails      = "tftsest@fxinnovation.com"
 }
