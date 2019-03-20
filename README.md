@@ -15,6 +15,7 @@ Creates an a organization with several accounts.
 
 | Name | Description |
 |------|-------------|
+| account\_count | Number of sub-accounts created. |
 | account\_ids | Organization sub-account ids. |
 | account\_names | Organization sub-account names. |
 | arn | ARN of the organization. |
