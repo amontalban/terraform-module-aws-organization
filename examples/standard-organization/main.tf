@@ -9,7 +9,6 @@ module "organization" {
 
   // Create nothing (empty test) because AWS prevents from deleting account easily
   organization_create = false
-  account_nb          = 0
-  account_names       = [""]
-  account_emails      = [""]
+  account_names       = []
+  account_emails      = []
 }
