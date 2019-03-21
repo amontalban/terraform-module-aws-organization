@@ -23,6 +23,11 @@ output "master_account_id" {
   value       = "${element(concat(aws_organizations_organization.organization.*.master_account_id, list("")), 0)}"
 }
 
+output "account_count" {
+  description = "Number of sub-accounts created."
+  value       = "${length(var.account_names)}"
+}
+
 output "account_names" {
   description = "Organization sub-account names."
   value       = "${aws_organizations_account.organization.*.name}"
