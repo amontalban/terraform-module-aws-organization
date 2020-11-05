@@ -3,13 +3,23 @@
 Creates an a organization with several accounts.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Requirements
+
+No requirements.
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| aws | n/a |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-| account\_emails | Emails of the accounts to create. Must be different for each account. | list | n/a | yes |
-| account\_names | Names of the accounts to create. | list | n/a | yes |
-| organization\_create | Whether to create the organization or not. | string | `"true"` | no |
+|------|-------------|------|---------|:--------:|
+| account\_emails | Emails of the accounts to create. Must be different for each account. | `list` | n/a | yes |
+| account\_names | Names of the accounts to create. | `list` | n/a | yes |
+| organization\_create | Whether to create the organization or not. | `bool` | `true` | no |
 
 ## Outputs
 
