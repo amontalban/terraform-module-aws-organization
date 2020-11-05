@@ -5,10 +5,10 @@ variable "organization_create" {
 
 variable "account_names" {
   description = "Names of the accounts to create."
-  type        = "list"
+  type        = list(string)
 }
 
 variable "account_emails" {
   description = "Emails of the accounts to create. Must be different for each account."
-  type        = "list"
+  type        = list(string)
 }
