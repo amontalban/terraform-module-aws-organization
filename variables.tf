@@ -3,6 +3,12 @@ variable "organization_create" {
   default     = true
 }
 
+variable "organization_principals" {
+  description = "List of AWS service principal names for which you want to enable integration with your organization."
+  default = []
+  type = list(string)
+}
+
 variable "account_names" {
   description = "Names of the accounts to create."
   type        = list(string)
